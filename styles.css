@@ -1,9 +1,5 @@
-html, body{
-    height: 100vh;
-}
-
-body {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.375), rgba(255, 255, 255, 0.375)), url("images/bg-road-1.jpg") no-repeat scroll center / cover;
+html, body {
+    min-height: 100vh;
 }
 
 .card {
@@ -17,4 +13,8 @@ h1 {
 
 .copyright {
     font-size: 11px;
+}
+
+@media (min-height: 768px) {
+
 }
